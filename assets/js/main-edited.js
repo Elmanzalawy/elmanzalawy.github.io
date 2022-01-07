@@ -92,8 +92,7 @@
 
 		// Lightbox gallery.
 			$window.on('load', function() {
-
-				$('#project-1').poptrox({
+				$('.poptrox-element').poptrox({
 					caption: function($a) { return $('#project-1').find('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
@@ -106,63 +105,5 @@
 					usePopupNav: true,
 					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
 				});
-                
-                $('#project-2').poptrox({
-					caption: function($a) { return $('#project-2').find('h3').text(); },
-					overlayColor: '#2c2c2c',
-					overlayOpacity: 0.85,
-					popupCloserText: '',
-					popupLoaderText: '',
-					selector: '.work-item a.image',
-					usePopupCaption: true,
-					usePopupDefaultStyling: false,
-					usePopupEasyClose: false,
-					usePopupNav: true,
-					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
-				});
-                
-                $('#project-3').poptrox({
-					caption: function($a) { return $('#project-3').find('h3').text(); },
-					overlayColor: '#2c2c2c',
-					overlayOpacity: 0.85,
-					popupCloserText: '',
-					popupLoaderText: '',
-					selector: '.work-item a.image',
-					usePopupCaption: true,
-					usePopupDefaultStyling: false,
-					usePopupEasyClose: false,
-					usePopupNav: true,
-					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
-				});
-                
-                 $('#project-4').poptrox({
-					caption: function($a) { return $('#project-4').find('h3').text(); },
-					overlayColor: '#2c2c2c',
-					overlayOpacity: 0.85,
-					popupCloserText: '',
-					popupLoaderText: '',
-					selector: '.work-item a.image',
-					usePopupCaption: true,
-					usePopupDefaultStyling: false,
-					usePopupEasyClose: false,
-					usePopupNav: true,
-					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
-				});
-                
-                $('#three').poptrox({
-					caption: function($a) { return $a.next('h3').text(); },
-					overlayColor: '#2c2c2c',
-					overlayOpacity: 0.85,
-					popupCloserText: '',
-					popupLoaderText: '',
-					selector: '.work-item a.image',
-					usePopupCaption: true,
-					usePopupDefaultStyling: false,
-					usePopupEasyClose: false,
-					usePopupNav: true,
-					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
-				});
-
 			});
-
 })(jQuery);
