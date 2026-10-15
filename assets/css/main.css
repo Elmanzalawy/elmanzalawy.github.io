@@ -4,10 +4,11 @@
 	--text: #0f172a;
 	--muted: #475569;
 	--line: #e2e8f0;
-	--accent: #2563eb;
-	--accent-text: #fff;
-	--chip: #eff6ff;
-	--chip-text: #1d4ed8;
+	--accent: #00bfff;
+	--accent-ink: #00769e;
+	--accent-text: #04202e;
+	--chip: #e0f6ff;
+	--chip-text: #00698f;
 	color-scheme: light
 }
 
@@ -18,10 +19,11 @@
 		--text: #e5eaf3;
 		--muted: #9aa8bf;
 		--line: #223050;
-		--accent: #3b82f6;
-		--accent-text: #fff;
-		--chip: #172554;
-		--chip-text: #93c5fd;
+		--accent: #00bfff;
+		--accent-ink: #00bfff;
+		--accent-text: #04202e;
+		--chip: #06293a;
+		--chip-text: #66d9ff;
 		color-scheme: dark
 	}
 }
@@ -44,7 +46,7 @@ body {
 }
 
 a {
-	color: var(--accent)
+	color: var(--accent-ink)
 }
 
 .wrap {
